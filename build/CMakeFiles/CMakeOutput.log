@@ -1,0 +1,57 @@
+The system is: Windows - 10.0.22624 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/cygwin64/bin/i686-w64-mingw32-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/3.25.0-rc1/CompilerIdCXX/a.exe"
+
+Determining if the C++ compiler works passed with the following output:
+Change Dir: F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-aieozk
+
+Run Build Command(s):C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_34110/fast && C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_34110.dir/build.make CMakeFiles/cmTC_34110.dir/build
+gmake.exe[1]: Entering directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-aieozk'
+Building CXX object CMakeFiles/cmTC_34110.dir/testCXXCompiler.cxx.obj
+C:/cygwin64/bin/i686-w64-mingw32-g++.exe    -o CMakeFiles/cmTC_34110.dir/testCXXCompiler.cxx.obj -c F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-aieozk/testCXXCompiler.cxx
+Linking CXX executable cmTC_34110.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_34110.dir/objects.a
+C:/cygwin64/bin/i686-w64-mingw32-ar.exe qc CMakeFiles/cmTC_34110.dir/objects.a @CMakeFiles/cmTC_34110.dir/objects1
+C:/cygwin64/bin/i686-w64-mingw32-g++.exe -Wl,--whole-archive CMakeFiles/cmTC_34110.dir/objects.a -Wl,--no-whole-archive -o cmTC_34110.exe -Wl,--out-implib,libcmTC_34110.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_34110.dir/linkLibs.rsp
+gmake.exe[1]: Leaving directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-aieozk'
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/cygwin64/bin/i686-w64-mingw32-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/3.25.0-rc1/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-e0mu0o
+
+Run Build Command(s):C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_57913/fast && C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_57913.dir/build.make CMakeFiles/cmTC_57913.dir/build
+gmake.exe[1]: Entering directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-e0mu0o'
+Building C object CMakeFiles/cmTC_57913.dir/testCCompiler.c.obj
+C:/cygwin64/bin/i686-w64-mingw32-gcc.exe    -o CMakeFiles/cmTC_57913.dir/testCCompiler.c.obj -c F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-e0mu0o/testCCompiler.c
+Linking C executable cmTC_57913.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_57913.dir/objects.a
+C:/cygwin64/bin/i686-w64-mingw32-ar.exe qc CMakeFiles/cmTC_57913.dir/objects.a @CMakeFiles/cmTC_57913.dir/objects1
+C:/cygwin64/bin/i686-w64-mingw32-gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_57913.dir/objects.a -Wl,--no-whole-archive -o cmTC_57913.exe -Wl,--out-implib,libcmTC_57913.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_57913.dir/linkLibs.rsp
+gmake.exe[1]: Leaving directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-e0mu0o'
+
+
+

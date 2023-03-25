@@ -1,0 +1,56 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-k2s2vb
+
+Run Build Command(s):C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_1a6c8/fast && C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_1a6c8.dir/build.make CMakeFiles/cmTC_1a6c8.dir/build
+gmake.exe[1]: Entering directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-k2s2vb'
+Building CXX object CMakeFiles/cmTC_1a6c8.dir/CMakeCXXCompilerABI.cpp.obj
+C:/cygwin64/bin/i686-w64-mingw32-g++.exe   -v -o CMakeFiles/cmTC_1a6c8.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:/cygwin64/bin/i686-w64-mingw32-g++
+Target: i686-w64-mingw32
+Configured with: /mnt/share/cygpkgs/mingw64-i686-gcc/mingw64-i686-gcc.x86_64/src/gcc-11.3.0/configure --srcdir=/mnt/share/cygpkgs/mingw64-i686-gcc/mingw64-i686-gcc.x86_64/src/gcc-11.3.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/mingw64-i686-gcc --htmldir=/usr/share/doc/mingw64-i686-gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=i686-w64-mingw32 --without-libiconv-prefix --without-libintl-prefix --with-sysroot=/usr/i686-w64-mingw32/sys-root --with-build-sysroot=/usr/i686-w64-mingw32/sys-root --disable-multilib --disable-win32-registry --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-fully-dynamic-string --enable-graphite --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-version-specific-runtime-libs --with-dwarf2 --with-gnu-ld --with-gnu-as --with-gcc-major-version-only --with-tune=generic --with-cloog-include=/usr/include/cloog-isl --with-system-zlib --enable-threads=posix --libexecdir=/usr/lib
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/11/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/11/../../../../i686-w64-mingw32/lib/../lib/:/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/11/../../../../i686-w64-mingw32/lib/:/usr/i686-w64-mingw32/sys-root/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1a6c8.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_1a6c8.dir/CMakeCXXCompilerABI.cpp.'
+i686-w64-mingw32-g++: warning: C:/Program: linker input file unused because linking not done
+i686-w64-mingw32-g++: error: C:/Program: linker input file not found: No such file or directory
+i686-w64-mingw32-g++: warning: Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp\: linker input file unused because linking not done
+i686-w64-mingw32-g++: error: Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp\: linker input file not found: No such file or directory
+gmake.exe[1]: *** [CMakeFiles/cmTC_1a6c8.dir/build.make:78: CMakeFiles/cmTC_1a6c8.dir/CMakeCXXCompilerABI.cpp.obj] Error 1
+gmake.exe[1]: Leaving directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-k2s2vb'
+gmake.exe: *** [Makefile:127: cmTC_1a6c8/fast] Error 2
+
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-wpvdtr
+
+Run Build Command(s):C:/Strawberry/c/bin/gmake.exe -f Makefile cmTC_42c10/fast && C:/Strawberry/c/bin/gmake.exe  -f CMakeFiles/cmTC_42c10.dir/build.make CMakeFiles/cmTC_42c10.dir/build
+gmake.exe[1]: Entering directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-wpvdtr'
+Building C object CMakeFiles/cmTC_42c10.dir/CMakeCCompilerABI.c.obj
+C:/cygwin64/bin/i686-w64-mingw32-gcc.exe   -v -o CMakeFiles/cmTC_42c10.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:/cygwin64/bin/i686-w64-mingw32-gcc
+Target: i686-w64-mingw32
+Configured with: /mnt/share/cygpkgs/mingw64-i686-gcc/mingw64-i686-gcc.x86_64/src/gcc-11.3.0/configure --srcdir=/mnt/share/cygpkgs/mingw64-i686-gcc/mingw64-i686-gcc.x86_64/src/gcc-11.3.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/mingw64-i686-gcc --htmldir=/usr/share/doc/mingw64-i686-gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=i686-w64-mingw32 --without-libiconv-prefix --without-libintl-prefix --with-sysroot=/usr/i686-w64-mingw32/sys-root --with-build-sysroot=/usr/i686-w64-mingw32/sys-root --disable-multilib --disable-win32-registry --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-fully-dynamic-string --enable-graphite --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-version-specific-runtime-libs --with-dwarf2 --with-gnu-ld --with-gnu-as --with-gcc-major-version-only --with-tune=generic --with-cloog-include=/usr/include/cloog-isl --with-system-zlib --enable-threads=posix --libexecdir=/usr/lib
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/11/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/11/:/usr/lib/gcc/i686-w64-mingw32/11/../../../../i686-w64-mingw32/lib/../lib/:/usr/i686-w64-mingw32/sys-root/mingw/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/11/../../../../i686-w64-mingw32/lib/:/usr/i686-w64-mingw32/sys-root/mingw/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42c10.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_42c10.dir/CMakeCCompilerABI.c.'
+i686-w64-mingw32-gcc: warning: C:/Program: linker input file unused because linking not done
+i686-w64-mingw32-gcc: error: C:/Program: linker input file not found: No such file or directory
+i686-w64-mingw32-gcc: warning: Files/CMake/share/cmake-3.25/Modules/CMakeCCompilerABI.c\: linker input file unused because linking not done
+i686-w64-mingw32-gcc: error: Files/CMake/share/cmake-3.25/Modules/CMakeCCompilerABI.c\: linker input file not found: No such file or directory
+gmake.exe[1]: *** [CMakeFiles/cmTC_42c10.dir/build.make:78: CMakeFiles/cmTC_42c10.dir/CMakeCCompilerABI.c.obj] Error 1
+gmake.exe[1]: Leaving directory 'F:/GitHubRepos/TCP_CLIENT_SERVER_1/build/CMakeFiles/CMakeScratch/TryCompile-wpvdtr'
+gmake.exe: *** [Makefile:127: cmTC_42c10/fast] Error 2
+
+
+
+
