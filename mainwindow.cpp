@@ -1,5 +1,5 @@
-#include "mainwindow.h"
-#include "./ui_mainwindow.h"
+//#include "mainwindow.h"
+//#include "./ui_mainwindow.h"
 
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
@@ -10,7 +10,7 @@
 
 class MainWindow : public QMainWindow {
 public:
-    MainWindow::MainWindow() {
+    MainWindow() {
         setWindowTitle("Echo Client");
 
         // Host Address TextEdit
@@ -92,7 +92,7 @@ private slots:
         clientIdTextEdit->setText(tcpSocket->localAddress().toString());
         connectButton->setDisabled(true);
         disconnectButton->setDisabled(false);
-        sendButton->setDisabled(false);Z
+        sendButton->setDisabled(false);
         systemLogsTextEdit->append(QString("%1: Connected to %2:%3").arg(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss")).arg(tcpSocket->peerAddress().toString()).arg(tcpSocket->peerPort()));
     }
 
@@ -115,7 +115,7 @@ private slots:
         }
     }
 
-    void MainWindow::log(QString message) {
+    void log(QString message) {
         QDateTime now = QDateTime::currentDateTime();
         QString timestamp = now.toString(Qt::ISODate);
         QString logMessage = QString("[%1] %2\n").arg(timestamp).arg(message);
